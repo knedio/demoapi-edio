@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 
 var UserSchema = new mongoose.Schema({
-  usr_email: String,
-  usr_fullname: String,
-  usr_address: String,
+  user_email: String,
+  user_fullname: String,
+  user_address: String,
   updated_at: { type: Date, default: Date.now },
 });
 
